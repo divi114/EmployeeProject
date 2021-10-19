@@ -10,7 +10,7 @@ public class InsertAndShow {
 	void addEmployee(){
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter Id");
-		int id=scan.nextInt();
+		int i1d=scan.nextInt();
 		System.out.println("Enter Name");
 		String name=scan.next();
 		System.out.println("Enter Email");
