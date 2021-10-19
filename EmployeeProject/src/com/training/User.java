@@ -8,9 +8,12 @@ public class User {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public User() {
+	
+	public User(int id, String name, String email) {
 		super();
-		// TODO Auto-generated constructor stub
+		this.id = id;
+		this.name = name;
+		this.email = email;
 	}
 	@Override
 	public String toString() {
